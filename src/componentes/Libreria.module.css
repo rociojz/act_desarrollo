@@ -1,0 +1,128 @@
+.libreria {
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(0deg, #1a1826, #413b5e);
+  }
+
+  .listaLibro {
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(0deg, #1a1826, #413b5e);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ebe9dc;
+  }
+  .Image {
+    align-items: center;
+    flex-direction: column;
+    width: 200px; 
+    padding-bottom: 50px;
+  }
+  .libroLink {
+    text-align: center;
+    color: #ebe9dc;
+    font-size: 1.5em;
+  }
+  .lista {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ebe9dc;
+    max-width: calc((100% - 40px) / 2); /* Tamaño máximo de las columnas */
+  }
+  .lista-libro {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-color: rgb(91, 121, 117);
+    border-style: solid;
+    /*background-color: #333;*/
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: calc((100% - 40px) / 4); /* Tamaño máximo de las columnas */
+    text-align: center;
+    color: #ebe9dc;
+  }
+  .webImage {
+    width: 298px;
+    height: 193px;
+    padding-bottom: 80px;
+  }
+
+  .libreria p {
+    color: #f1f1f1;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  
+  .libro {
+
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-color: rgb(91, 121, 117);
+    border-style: solid;
+    background: linear-gradient(0deg, #1a1826, #413b5e);
+    /*background-color: #333;*/
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: calc((100% - 40px) / 4); /* Tamaño máximo de las columnas */
+    text-align: center;
+    color: #ebe9dc;
+}
+.callToAction {
+    background-color: #508094;
+    padding: 10px;
+    margin-left: 20px;
+    transition: 0.5s;
+  }
+  .callToAction:hover {
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .ctaContainer {
+    padding-top: 40px;
+  }
+  /*
+  .libro {
+
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-color: rgb(91, 121, 117);
+    border-style: solid;
+    background: linear-gradient(0deg, #1a1826, #413b5e);
+    /*background-color: #333;*/
+    /*
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;*/
+    /*
+    max-width: calc((100% - 40px) / 4); /* Tamaño máximo de las columnas */
+    /*
+    text-align: center;
+    color: #ebe9dc;
+ }*/
+  @media (min-width: 800px) {
+    .libreria p {
+      font-size: 2.5em;
+    }
+    .webImage {
+      width: 596px;
+      height: 386px;
+    }
+  }
